@@ -4,100 +4,144 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Anteo Leonardi Portofolio</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+    <!-- font import -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles/css/index.css" />
+
+    <title>Anteo Portfolio</title>
   </head>
   <body>
-    <header>
-      <h1>
-        Hello, my name is Anteo Leonardi <br />
-        A Full Stack Developer
-      </h1>
-      <a href="https://github.com/anteo123">Find Out More</a>
+    <header class="header">
+      <div class="header-content">
+        <h1 class="header-title">
+          Hello, my name is <span>Anteo Leonardi</span><br />A Full Stack
+          Developer
+        </h1>
+        <a href="#about" class="button button-primary">Find out more</a>
+        <a href="#about">Find out more</a>
+      </div>
     </header>
     <main>
-      <section class="about">
-        <h2>About Me</h2>
-        <div>
-          <img width="250" src="./images/blackavatar.png" alt="blackavatar" />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
-            sapiente nihil nemo ducimus impedit repellendus et dignissimos ad
-            cum blanditiis maiores libero laboriosam, dolores vel quae, labore
-            ullam quas accusamus!
-          </p>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic
-            quaerat eius quidem amet minima expedita autem nobis iusto,
-            quibusdam illum repellat totam voluptates temporibus numquam. Sint
-            suscipit nemo praesentium animi!
-          </p>
-          <a href="">View Resume</a>
+      <section class="about" id="about">
+        <h2>About me</h2>
+        <div class="about-content">
+          <img
+            src="./assets/images/anteo-img.jpg"
+            alt="developer Anteo Leonardi"
+            class="about-img"
+          />
+          <div class="about-p">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non
+              nulla asperiores soluta commodi maiores deserunt, voluptatibus ut
+              placeat inventore molestiae itaque libero ad minus esse et atque,
+              voluptate officiis obcaecati.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic unde
+              distinctio maiores illum atque vero aliquam.
+            </p>
+            <a href="#about" class="button button-secondary">View resume</a>
+          </div>
         </div>
-        <blockquote>
-          “Experience is the name everyone gives to their mistakes.”<br />
-          <cite>Oscar Wilde</cite>
-        </blockquote>
+        <div class="about-quote">
+          <blockquote>Dont comment bad code - rewrite it</blockquote>
+          <cite>Brian Kernighan</cite>
+        </div>
       </section>
       <section class="projects">
         <h2>Projects</h2>
-        <article>
-          <h3>Project Titles</h3>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint rerum
-            asperiores et, aut ipsa ea exercitationem commodi <br />
-            optio ad est laboriosam, consequuntur vitae unde sed reprehenderit
-            eum quo alias praesentium?
-          </p>
-          <a href="">Source Code</a>
-          <a href="">View Project</a>
-          <img width="600" src="./images/project1.webp" alt="blackavatar" />
+        <article class="projects-article">
+          <div class="project-article-pad">
+            <h3>Project Title</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+              maiores nihil soluta ad at laborum error, quas quaerat quis!
+              Perferendis facilis pariatur libero quas neque magnam quisquam
+              optio quasi itaque
+            </p>
+            <a class="button button-primary" href="">Source Code</a>
+            <a class="button button-tertiary" href="">View Project</a>
+          </div>
+          <img
+            class="about-img"
+            src="./assets/images/project1.webp"
+            alt="project"
+          />
         </article>
-        <article>
-          <h3>Project Titles</h3>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint rerum
-            asperiores et, aut ipsa ea exercitationem commodi <br />
-            optio ad est laboriosam, consequuntur vitae unde sed reprehenderit
-            eum quo alias praesentium?
-          </p>
-          <a href="">Source Code</a>
-          <a href="">View Project</a>
-          <img width="600" src="./images/project1.webp" alt="blackavatar" />
+        <br />
+        <article class="projects-article">
+          <div class="project-article-pad">
+            <h3>Project Title</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+              maiores nihil soluta ad at laborum error, quas quaerat quis!
+              Perferendis facilis pariatur libero quas neque magnam quisquam
+              optio quasi itaque
+            </p>
+            <a class="button button-primary" href="">Source Code</a>
+            <a class="button button-tertiary" href="">View Project</a>
+          </div>
+          <img
+            class="about-img"
+            src="./assets/images/project1.webp"
+            alt="project"
+          />
         </article>
-        <article>
-          <h3>Project Titles</h3>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint rerum
-            asperiores et, aut ipsa ea exercitationem commodi <br />
-            optio ad est laboriosam, consequuntur vitae unde sed reprehenderit
-            eum quo alias praesentium?
-          </p>
-          <a href="">Source Code</a>
-          <a href="">View Project</a>
-          <img width="600" src="./images/project1.webp" alt="blackavatar" />
+        <br />
+        <article class="projects-article">
+          <div class="project-article-pad">
+            <h3>Project Title</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+              maiores nihil soluta ad at laborum error, quas quaerat quis!
+              Perferendis facilis pariatur libero quas neque magnam quisquam
+              optio quasi itaque
+            </p>
+            <a class="button button-primary" href="">Source Code</a>
+            <a class="button button-tertiary" href="">View Project</a>
+          </div>
+          <img
+            class="about-img"
+            src="./assets/images/project1.webp"
+            alt="project"
+          />
         </article>
       </section>
+      <br />
       <section class="contact">
-        <h2>Contact</h2>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam
-          dolores asperiores quasi quis fugit cum rem br on animi deserunt
-          <br />
-          nemo alias expedita nesciunt, sapiente, ducimus similique praesentium
-          repudiandae blanditiis harum.
-        </p>
-        <a href="mailto:anteoleonardi@gmail.com">Let's Talk</a>
+        <div class="about-contact">
+          <h2>Contact</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium
+            commodi laboriosam fugiat in labore, nobis officiis aut fuga rem
+            architecto porro numquam vero minus quas ipsa voluptatem dignissimos
+            aliquam magni.
+          </p>
+          <a
+            class="button button-secondary"
+            href="mailto:anteoleonardi@gmail.com"
+            >Let's talk</a
+          >
+        </div>
       </section>
     </main>
-    <footer>
+    <footer class="about-footer">
       <ul>
-        <li><a href="https://anteo123.github.io/">GitHub</a></li>
-        <li><a href="https://anteo123.github.io/">GitHub</a></li>
-        <li><a href="https://anteo123.github.io/">GitHub</a></li>
-        <li><a href="https://anteo123.github.io/">GitHub</a></li>
+        <div class="about-icon">
+          <li class="lione"><a href="" class="social-link github"></a></li>
+          <li class="lione"><a href="" class="social-link linkedin"></a></li>
+          <li class="lione"><a href="" class="social-link twitter"></a></li>
+          <li class="lione"><a href="" class="social-link youtube"></a></li>
+        </div>
       </ul>
-      <p>@2022 - Portofolio Designed by Anteo Leonardi</p>
+      <p class="about-teo">@2022 - Portfolio Design by Anteo Leonardi</p>
     </footer>
   </body>
 </html>
