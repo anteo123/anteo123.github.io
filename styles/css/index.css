@@ -123,6 +123,10 @@ h2 {
   width: 100%;
   max-width: 400px;
 }
+.about .about-img {
+  height: 350px;
+  border-radius: 5%;
+}
 
 .about-description {
   margin-left: 30px;
